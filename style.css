@@ -234,8 +234,8 @@ body {}
 
 .form {
     max-width: 170px;
-    margin: 8px auto;
-    /* margin-top: 8px; */
+    /* margin: 8px auto; */
+    margin-left: 43%;
 }
 
 .form input {
@@ -321,6 +321,7 @@ textarea {
     }
 
     .box-main {
+        overflow-x: hidden;
         flex-direction: column-reverse;
         max-width: 100%;
     }
@@ -348,8 +349,8 @@ textarea {
     }
 
     .form {
-        text-align: center;
-        margin-left: 210px;
+
+        margin-left: 35%;
     }
 
     .textcenter {
@@ -361,4 +362,10 @@ textarea {
 
     }
 
+}
+
+@media(max-width: 390px) {
+    .form {
+        margin-left: 19%;
+    }
 }
